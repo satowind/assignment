@@ -3,10 +3,11 @@ import React from 'react';
 
 class Form extends React.Component {
 
-    state = { credit:'36354735-636335536', expire: '03/24' };
+    state = { credit:'4324 5433 9382 1030', expire: '03/24' };
 
     componentDidMount(){
         this.props.onCreditChange(this.state.credit)
+        this.props.onExpireChange(this.state.expire)
     }
 
     onCreditChange= (event) => {
