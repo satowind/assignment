@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: Graphik;
+}
+
+.border{
+	border-top:1px solid #AAB0BB;
+	border-bottom:1px solid #AAB0BB;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.card{
+	position: relative;
+	height: 230px;
+	width: 90%;
+	border-radius: 10px;
+	background: linear-gradient(to right, rgba(255, 82, 33, 1) , rgba(63, 103, 233, 1));
+	background: -webkit-linear-gradient(to right, rgba(255, 82, 33, 1) , rgba(63, 103, 233, 1)); /* Chrome10+, Safari5.1+ */
+	background: -moz-linear-gradient(to right, rgba(255, 82, 33, 1) , rgba(63, 103, 233, 1));    /* FF3.6+ */
+	background: linear-gradient(to right, rgba(255, 82, 33, 1) , rgba(63, 103, 233, 1));      /* W3C */
+}
+
+.label{
+	font-family: Graphik;
+	font-style: 14px;
+	text-align: left;
+	color: rgba(34, 34, 34, 1)
+}
+
+.nav{
+	font-family: Graphik;
+	font-size: 20px;
+}
+
+.nav_li{	
+	color:#353B50;
+	font-weight: 800;
+	font-size:1.4em;
+	text-align:center; 
+}
+
+.nav_a{
+	color:#353B50;
+}
+
+.payment{
+	margin: 5%;
+	float: right;
+}
+
+.btn-primary{
+	background:#3F67E9;
+}
+
+.master{
+	position: absolute;
+	right:15%;
+	bottom: 5%
+}
+
+.master2{
+	position: absolute;
+	top:60px;
+	left:10px;
+}
+
+.card_p{
+	color:#fff;
+}
+
+input[type=text]{
+	 background-color: rgba(53, 59, 80, 0.1);
+}
+
+input{
+    background-color: #2196F3;
+}
+
+.c1{
+	position: absolute;
+	top:15px;
+	left:25px;
+}
+
+.c2{
+	position: absolute;
+	top:35px;
+	left:25px;
+}
+
+.c3{
+	position: absolute;
+	top:120px;
+	left:25px;
+}
+
+.c4{
+	position: absolute;
+	top:140px;
+	left:25px;
+}
+
+.c5{
+	position: absolute;
+	top:170px;
+	left:25px;
+}
+
+.header{
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+.light{
+	color:#ADB3BD;
+}
+
+.pad{
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+.img_dis{
+	background: #F0F1F3;
+}
